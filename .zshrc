@@ -49,3 +49,4 @@ zstyle ':completion:*:default' list-colors ${(s.:.)LS_COLORS}
 
 # alias
 alias ij="open -b com.jetbrains.intellij"
+eval "$(direnv hook zsh)"

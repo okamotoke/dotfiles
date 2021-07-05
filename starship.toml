@@ -9,3 +9,6 @@ disabled = true
 
 [golang]
 disabled = true
+
+[docker_context]
+disabled = true
