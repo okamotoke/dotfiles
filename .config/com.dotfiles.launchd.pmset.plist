@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>Label</key>
+    <string>com.dotfiles.launchd</string>
+    <key>ProgramArguments</key>
+    <array>
+      <string>/usr/bin/pmset</string>
+      <string>-a</string>
+      <string>autopoweroff</string>
+      <string>0</string>
+      <string>displaysleep</string>
+      <string>0</string>
+      <string>disksleep</string>
+      <string>0</string>
+      <string>networkoversleep</string>
+      <string>0</string>
+      <string>hibernatemode</string>
+      <string>3</string>
+      <string>powernap</string>
+      <string>0</string>
+      <string>sleep</string>
+      <string>0</string>
+      <string>womp</string>
+      <string>1</string>
+    </array>
+    <key>RunAtLoad</key>
+    <true/>
+    <key>KeepAlive</key>
+    <true/>
+    <key>UserName</key>
+    <string>root</string>
+    <key>StandardOutPath</key>
+    <string>/private/var/log/launchd/pmset.log</string>
+    <key>StandardErrorPath</key>
+    <string>/private/var/log/launchd/pmset.log</string>
+  </dict>
+</plist>
