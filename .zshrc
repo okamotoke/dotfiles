@@ -49,4 +49,5 @@ zstyle ':completion:*:default' list-colors ${(s.:.)LS_COLORS}
 
 # alias
 alias ij="open -b com.jetbrains.intellij"
+alias k="kubectl"
 eval "$(direnv hook zsh)"
