@@ -1,0 +1,19 @@
+[user]
+	name = Keisuke Okamoto
+	email = okamotoke@mercari.com
+	signingkey = 6210EF0A6D603C12 
+[core]
+	excludesfile= /Users/okamotoke/.gitignore_global
+	editor = vim
+[url "git@github.com:"]
+	insteadOf = https://github.com/
+[commit]
+	gpgsign = true
+[gpg]
+    	program = gpg
+[pull]
+	rebase = false
+[fetch]
+	prune = true
+[push]
+	default = current
