@@ -5,6 +5,8 @@
 [core]
 	excludesfile= /Users/okamotoke/.gitignore_global
 	editor = vim
+	fsmonitor = true
+	untrackedcache = true
 [url "git@github.com:"]
 	insteadOf = https://github.com/
 [commit]
