@@ -23,6 +23,7 @@ export GOPATH=$HOME/go
 export PATH=$GOPATH/bin:$PATH
 export GO1111MODULE=on
 export GOSUMDB=off
+export GOPRIVATE=github.com/kouzoh/*
 
 HISTFILE=$HOME/.zsh_history
 HISTSIZE=10000
@@ -50,4 +51,11 @@ zstyle ':completion:*:default' list-colors ${(s.:.)LS_COLORS}
 # alias
 alias ij="open -b com.jetbrains.intellij"
 alias k="kubectl"
+
+# claude
+# export LITELLM_API_KEY=
+# export ANTHROPIC_AUTH_TOKEN=$LITELLM_API_KEY
+# export ANTHROPIC_BASE_URL="https://litellm.mercari.in"
+
 eval "$(direnv hook zsh)"
+

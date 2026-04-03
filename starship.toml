@@ -15,3 +15,9 @@ disabled = true
 [docker_context]
 disabled = true
 
+[git_status]
+disabled = true
+
+[git_metrics]
+disabled = true
+
